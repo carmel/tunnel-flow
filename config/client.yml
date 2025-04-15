@@ -1,0 +1,10 @@
+client_id: my-client-123
+auth_token: secret-token-abc
+
+server: 1.2.3.4:9000
+
+services:
+  - name: web
+    local: 127.0.0.1:8080
+  - name: ssh
+    local: 127.0.0.1:22
